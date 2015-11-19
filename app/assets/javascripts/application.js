@@ -22,4 +22,7 @@ $(document).ready(function(){
   // side navigation bar 
   $(".button-collapse").sideNav(); 
 
+  /* slider for success page */
+  $('.slider').slider({full_width: true});
+
 }); 

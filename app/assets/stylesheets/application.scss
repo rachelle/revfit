@@ -17,6 +17,33 @@
  $primary-color: color("blue", "lighten-2") !default; 
  @import "materialize"; 
 
+body { 
+  display: flex; 
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #0B0B0A;
+}
+
+main { 
+  flex: 1 0 auto;
+}
+
 .cgnav { 
   width: 90px;
 }
+
+.banner { 
+  filter: grayscale(60%);
+  width: 800px;
+  height: 600px;
+}
+
+.landing-text {
+  color: white;
+}
+
+
+
+
+
+
