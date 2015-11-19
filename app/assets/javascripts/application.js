@@ -16,3 +16,10 @@
 //= require turbolinks
 //= require gmaps/google
 //= require_tree .
+
+$(document).ready(function(){ 
+
+  // side navigation bar 
+  $(".button-collapse").sideNav(); 
+
+}); 
