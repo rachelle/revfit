@@ -21,7 +21,11 @@ body {
   display: flex; 
   min-height: 100vh;
   flex-direction: column;
+  width: 100%;
+  background-position: center;
   background-color: #0B0B0A;
+  background-image: url("/images/cg_shadow.jpg") ;
+  background-repeat: no-repeat;
 }
 
 main { 
@@ -42,8 +46,20 @@ main {
   color: white;
 }
 
+.slide-container { 
+  width: 500px;
+  height: 500px;
+  margin-bottom: 30px;
+}
 
+.slider .slides li img { 
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
 
-
+.layout-text { 
+  color: white;
+  margin-top: 40px;
+}
 
 
