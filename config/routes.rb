@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
     get '/success' => 'landing_pages#success'
 
+    get '/about_us' => 'landing_pages#about_us'
 end
