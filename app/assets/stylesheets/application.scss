@@ -49,11 +49,6 @@ body {
   margin-top: 100px;
 }
 
-/*.slider .slides li img { 
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-*/
 .layout-text { 
   color: white;
   margin-top: 40px;
@@ -62,6 +57,12 @@ body {
 .staff-image { 
   width: 580px;
   margin-top: 30px;
+}
+
+.strength {
+  width: 400px; 
+  height: 400px;
+
 }
 
 .welcome-content { 
@@ -78,5 +79,22 @@ body {
 
 .main-staff { 
   width: 380px;
-  height: 260px;
+  height: 260px; 
+}
+
+.toning {
+ width: 400px; 
+ height: 400px; 
+
+}
+
+.weightloss {
+  width: 400px; 
+  height: 400px; 
+
+}
+
+.program-content {
+  background-color: white; 
+  margin: 0px; 
 }

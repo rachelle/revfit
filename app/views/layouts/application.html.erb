@@ -10,6 +10,8 @@
 </head>
 <body>
 
+
+
 <!-- Fixed Navbar -->
 <div class="navbar-fixed"> 
   
@@ -24,6 +26,8 @@
         <li><%= link_to 'Home', root_path %></li> 
         <li><%= link_to 'Successes', success_path %></li>
         <li><%= link_to 'About Us', about_us_path %></li> 
+        <li><%= link_to 'Contact Us', contact_us_path %></li> 
+        <li><%= link_to 'Programs', programs_path %></li> 
     
       </ul>
       <ul class="side-nav" id="mobile-demo">
@@ -32,13 +36,14 @@
         <li><a href="collapsible.html">Nutrition</a></li>
         <li><%= link_to 'Successes', success_path %></li>
         <li><%= link_to 'About Us', about_us_path %></li> 
+        <li><%= link_to 'Contact Us', contact_us_path %></li> 
+        <li><%= link_to 'Programs', programs_path %></li> 
       </ul>
     </div>
   </nav>
 
 </div>
 <!-- end of fixed navbar -->
-
 
 
 <%= yield %>

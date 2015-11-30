@@ -22,11 +22,15 @@ $(document).ready(function(){
   // side navigation bar 
   $(".button-collapse").sideNav(); 
 
+  $('.slider').slider({width: 500, 
+                        height: 490,
+  
+  
+  });
 
-      $('.slider').slider({width: 500, 
-                  height: 490,
+  $('.parallax').parallax(); 
+ 
 
+});
 
-       });
-
-}); 
+   
