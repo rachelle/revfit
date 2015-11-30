@@ -1,1 +1,4 @@
-$('#plans').html("<%= j (render @plans %>"); 
+$('.delete_plan').bind('ajax:success', function() { 
+  $(this).closest('tr').fadeOut(); 
+}); 
+

@@ -1,18 +1,5 @@
+<div class="grid"> 
+  <%= render 'sidebar_menu' %> 
 
-<%= link_to 'Plans', new_plans_path, remote: true %> 
-
-<div class="row"> 
-  <div class="col s12"> 
-    <%= link_to new_plan_path, remote: true do %> 
-      <button class="form-button">New</button>
-    <% end %> 
-  </div> 
-</div>
-
-<div class="row"> 
-  <div class="col s12" id="plan-form" style="display:none;"></div> 
+  <%= render partials: 'plan_grid', locals: { plans: @plans} %> 
 </div> 
-
-<div class="row"> 
-  <div class="col s12" id="plans"><%= render @plans %></div>
-</div>

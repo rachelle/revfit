@@ -31,6 +31,7 @@ gem 'gmaps4rails'
 
 gem 'geocoder'
 
+gem 'responders'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
