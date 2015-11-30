@@ -1,18 +1,6 @@
 Rails.application.routes.draw do
   
-  get 'plans/index'
-
-  get 'plans/new'
-
-  get 'plans/edit'
-
-  get 'plans/show'
-
-  get 'plans/destroy'
-
-  get 'plans/create'
-
-   root 'landing_pages#index'
+  root 'landing_pages#index'
 
     get '/success' => 'landing_pages#success'
 
@@ -21,4 +9,6 @@ Rails.application.routes.draw do
     get '/contact_us' => 'landing_pages#contact_us'
 
     get '/programs' => 'landing_pages#programs'
+
+    resources :plans
 end

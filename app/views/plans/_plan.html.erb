@@ -1,0 +1,6 @@
+<%= link_to edit_plan_path(plan), remote: true do %> 
+  <button>Edit</button> 
+<% end %> 
+
+<%= link_to plan, remote: true, method: :delete, data: { confirm: 'Are you sure?' } do %> 
+<% end %> 
